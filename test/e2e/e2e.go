@@ -15,6 +15,10 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	apiv1 "k8s.io/client-go/pkg/api/v1"
 	"k8s.io/client-go/tools/clientcmd"
+	"github.com/tamalsaha/go-oneliners"
+	"k8s.io/client-go/rest"
+	"fmt"
+	"net/http"
 )
 
 var image = "appscode/stash:latest"
@@ -30,13 +34,38 @@ func runController() (*controller.Controller, error) {
 	}
 	kubeClient := clientset.NewForConfigOrDie(config)
 	stashClient := rcs.NewForConfigOrDie(config)
+
+
+	cc := kubeClient.CoreV1().RESTClient().(*rest.RESTClient)
+	cc.Client.Transport = NewWrapperRT(cc.Client)
+
+
 	ctrl := controller.NewController(kubeClient, stashClient, "canary")
+	oneliners.FILE()
 	if err := ctrl.Setup(); err != nil {
 		log.Errorln(err)
 	}
 	ctrl.Run()
 	return ctrl, nil
 }
+
+
+type WrapperRT struct {
+	i http.RoundTripper
+}
+
+func NewWrapperRT(c *http.Client) http.RoundTripper {
+	if c != nil && c.Transport != nil {
+		return &WrapperRT{i: c.Transport}
+	}
+	return &WrapperRT{i: http.DefaultTransport}
+}
+
+func (w WrapperRT) RoundTrip(r *http.Request) (*http.Response, error) {
+	fmt.Println(r.Method + "|" + r.URL.String())
+	return w.i.RoundTrip(r)
+}
+
 
 func checkEventForBackup(ctrl *controller.Controller, objName string) error {
 	var err error
