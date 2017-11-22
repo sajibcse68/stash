@@ -14,7 +14,7 @@ section_menu_id: reference
 =======
 aliases:
   - products/stash/0.7.1/reference/
->>>>>>> Update developer-guide & reference, 0.5.1 -> 0.7.1
+>>>>>>> Update developer-guide & reference, 0.7.1 -> 0.7.1
 ---
 ## stash recover
 
