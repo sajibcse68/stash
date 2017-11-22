@@ -2,17 +2,23 @@
 title: Uninstall | Stash
 description: uninstall of Stash
 menu:
-  product_stash_0.5.1:
+  product_stash_0.7.1:
     identifier: uninstall-stash
     name: Uninstall
     parent: getting-started
     weight: 50
 product_name: stash
-left_menu: product_stash_0.5.1
+left_menu: product_stash_0.7.1
 section_menu_id: getting-started
+<<<<<<< 0f9802f11b790bb2c81dbca339bd1fc0defa1915
 url: /products/stash/0.5.1/getting-started/uninstall/
 aliases:
   - /products/stash/0.5.1/uninstall/
+=======
+url: /products/stash/0.7.1/getting-started/uninstall
+aliases:
+  - /products/stash/0.7.1/uninstall
+>>>>>>> Update developer-guide & reference, 0.5.1 -> 0.7.1
 ---
 
 > New to Stash? Please start [here](/docs/tutorial.md).

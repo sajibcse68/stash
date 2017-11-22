@@ -2,14 +2,19 @@
 title: Stash Recover | Stash
 description: Stash Recover
 menu:
-  product_stash_0.5.1:
+  product_stash_0.7.1:
     identifier: reference-stash-recover
     name: Stash Recover
     parent: reference
     weight: 30
 product_name: stash
-left_menu: product_stash_0.5.1
+left_menu: product_stash_0.7.1
 section_menu_id: reference
+<<<<<<< 0f9802f11b790bb2c81dbca339bd1fc0defa1915
+=======
+aliases:
+  - products/stash/0.7.1/reference/
+>>>>>>> Update developer-guide & reference, 0.5.1 -> 0.7.1
 ---
 ## stash recover
 
