@@ -2,13 +2,13 @@
 title: Schedule | Stash
 description: Stash Schedule
 menu:
-  product_stash_0.5.1:
+  product_stash_master:
     identifier: reference-stash-schedule
     name: Stash Schedule
     parent: reference
     weight: 40
 product_name: stash
-left_menu: product_stash_0.5.1
+left_menu: product_stash_master
 section_menu_id: reference
 ---
 ## stash schedule

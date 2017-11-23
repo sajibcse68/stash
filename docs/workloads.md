@@ -2,13 +2,13 @@
 title: Workloads | Stash
 description: workloads of Stash
 menu:
-  product_stash_0.5.1:
+  product_stash_master:
     identifier: workloads-stash
     name: Workloads
     parent: getting-started
     weight: 55
 product_name: stash
-left_menu: product_stash_0.5.1
+left_menu: product_stash_master
 section_menu_id: getting-started
 url: /products/stash/0.5.1/getting-started/workloads/
 aliases:

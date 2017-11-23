@@ -2,13 +2,13 @@
 title: Reference | Stash
 description: Stash Reference
 menu:
-  product_stash_0.5.1:
+  product_stash_master:
     identifier: reference-stash
     name: Stash
     parent: reference
     weight: 10
 product_name: stash
-left_menu: product_stash_0.5.1
+left_menu: product_stash_master
 section_menu_id: reference
 aliases:
   - products/stash/0.5.1/reference/
