@@ -10,9 +10,9 @@ menu:
 product_name: stash
 left_menu: product_stash_master
 section_menu_id: getting-started
-url: /products/stash/0.5.1/getting-started/install/
+url: /products/stash/master/getting-started/install/
 aliases:
-  - /products/stash/0.5.1/install/
+  - /products/stash/master/install/
 ---
 
 > New to Stash? Please start [here](/docs/tutorial.md).
@@ -24,11 +24,11 @@ Stash can be installed using YAML files includes in the [/hack/deploy](/hack/dep
 
 ```console
 # Install without RBAC roles
-$ kubectl apply -f https://raw.githubusercontent.com/appscode/stash/0.5.1/hack/deploy/without-rbac.yaml
+$ kubectl apply -f https://raw.githubusercontent.com/appscode/stash/master/hack/deploy/without-rbac.yaml
 
 
 # Install with RBAC roles
-$ kubectl apply -f https://raw.githubusercontent.com/appscode/stash/0.5.1/hack/deploy/with-rbac.yaml
+$ kubectl apply -f https://raw.githubusercontent.com/appscode/stash/master/hack/deploy/with-rbac.yaml
 ```
 
 ## Using Helm

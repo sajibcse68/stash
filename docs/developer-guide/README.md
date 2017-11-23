@@ -1,3 +1,4 @@
+---
 title: Overview | Developer Guide
 description: Developer Guide Overview
 menu:
@@ -9,7 +10,7 @@ menu:
 product_name: stash
 left_menu: product_stash_master
 section_menu_id: developer-guide
-url: /products/stash/0.5.1/developer-guide/
+url: /products/stash/master/developer-guide/
 ---
 
 ## Development Guide

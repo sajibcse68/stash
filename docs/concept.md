@@ -10,9 +10,9 @@ menu:
 product_name: stash
 left_menu: product_stash_master
 section_menu_id: getting-started
-url: /products/stash/0.5.1/getting-started/concept/
+url: /products/stash/master/getting-started/concept/
 aliases:
-  - /products/stash/0.5.1/concept/
+  - /products/stash/master/concept/
 ---
 
 > New to Stash? Please start [here](/docs/tutorial.md).

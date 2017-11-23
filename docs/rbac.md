@@ -10,9 +10,9 @@ menu:
 product_name: stash
 left_menu: product_stash_master
 section_menu_id: getting-started
-url: /products/stash/0.5.1/getting-started/rbac/
+url: /products/stash/master/getting-started/rbac/
 aliases:
-  - /products/stash/0.5.1/rbac/
+  - /products/stash/master/rbac/
 ---
 
 # Configuring RBAC

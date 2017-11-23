@@ -10,9 +10,9 @@ menu:
 product_name: stash
 left_menu: product_stash_master
 section_menu_id: getting-started
-url: /products/stash/0.5.1/getting-started/
+url: /products/stash/master/getting-started/
 aliases:
-  - /products/stash/0.5.1/
+  - /products/stash/master/
 ---
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/appscode/stash)](https://goreportcard.com/report/github.com/appscode/stash)
@@ -36,7 +36,7 @@ Please pick a version of Stash that matches your Kubernetes installation.
 
 | Stash Version                                                            | Docs                                                                  | Kubernetes Version |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------|
-| [0.5.1](https://github.com/appscode/stash/releases/tag/0.5.1) (uses CRD) | [User Guide](https://github.com/appscode/stash/tree/0.5.1/docs) | 1.7.x+             |
+| [0.5.1](https://github.com/appscode/stash/releases/tag/master) (uses CRD) | [User Guide](https://github.com/appscode/stash/tree/master/docs) | 1.7.x+             |
 | [0.4.2](https://github.com/appscode/stash/releases/tag/0.4.2) (uses TPR) | [User Guide](https://github.com/appscode/stash/tree/0.4.2/docs) | 1.5.x - 1.7.x      |
 
 ## Installation

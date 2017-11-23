@@ -11,7 +11,7 @@ product_name: stash
 left_menu: product_stash_master
 section_menu_id: reference
 aliases:
-  - products/stash/0.5.1/reference/
+  - products/stash/master/reference/
 ---
 ## stash
 
